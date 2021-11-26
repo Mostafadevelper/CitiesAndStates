@@ -1,0 +1,6 @@
+framework module Pods_Cities_States {
+  umbrella header "Pods-Cities&States-umbrella.h"
+
+  export *
+  module * { export * }
+}
