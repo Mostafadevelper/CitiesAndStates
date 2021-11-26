@@ -4,5 +4,14 @@
 <dict>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleLightContent</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NeoSans-Bold.ttf</string>
+		<string>NeoSans-Light.ttf</string>
+		<string>NeoSans-Meduim.ttf</string>
+		<string>NeoSans-Regular.ttf</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 </dict>
 </plist>

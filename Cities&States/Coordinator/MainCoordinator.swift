@@ -13,6 +13,9 @@ class MainCoordinator: Coordinator {
     var naviagtionController: UINavigationController
     
     func start() {
+        let homeVC = HomeVC.instatiate(StoryboardName.main)
+        self.naviagtionController.pushViewController(homeVC, animated: false)
+
     }
     
     init(naviagtionController: UINavigationController){

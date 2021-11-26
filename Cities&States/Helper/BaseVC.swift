@@ -8,7 +8,7 @@
 import UIKit
 import Lottie
 
-class MainVC: UIViewController {
+class BaseVC: UIViewController {
     
     private var loadAnimationView: AnimationView?
     
@@ -19,6 +19,10 @@ class MainVC: UIViewController {
     func hideLoadingAnimation() {
         loadAnimationView?.stop()
         loadAnimationView?.removeFromSuperview()
+    }
+
+    func showEmptyAnimation() {
+        showLottieAnimation(fileName: "empty", size: 150)
     }
 
     private func showLottieAnimation(fileName: String , size: CGFloat = 100) {
