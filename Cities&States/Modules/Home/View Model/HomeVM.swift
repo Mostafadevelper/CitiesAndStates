@@ -22,7 +22,7 @@ class HomeVM {
     
 }
 
-//MARK:- Setup Data Frome Network
+//MARK:- Setup Data From Network
 extension HomeVM {
     
     //MARK:- NetWork
@@ -42,7 +42,6 @@ extension HomeVM {
             self.error(error.localizedDescription)
         }
     }
-    
     
     //MARK:- Setup  Cell View Model
     private func processFetchedCityResult(result : [CityDatum]) {
