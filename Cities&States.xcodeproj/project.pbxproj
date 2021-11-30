@@ -42,6 +42,8 @@
 		B2A0F44F27514FF700A6ED09 /* CityApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A0F44E27514FF700A6ED09 /* CityApi.swift */; };
 		B2A0F4562751517D00A6ED09 /* load.json in Resources */ = {isa = PBXBuildFile; fileRef = B2A0F4552751517D00A6ED09 /* load.json */; };
 		B2A0F45827515C0D00A6ED09 /* empty.json in Resources */ = {isa = PBXBuildFile; fileRef = B2A0F45727515C0D00A6ED09 /* empty.json */; };
+		B2B3B54C2756B415006DBE40 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = B2B3B54B2756B415006DBE40 /* Readme.md */; };
+		B2FC5BEF27526CF7005EA6F5 /* app.gif in Resources */ = {isa = PBXBuildFile; fileRef = B2FC5BEE27526CF7005EA6F5 /* app.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,8 @@
 		B2A0F44E27514FF700A6ED09 /* CityApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityApi.swift; sourceTree = "<group>"; };
 		B2A0F4552751517D00A6ED09 /* load.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = load.json; sourceTree = "<group>"; };
 		B2A0F45727515C0D00A6ED09 /* empty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = empty.json; sourceTree = "<group>"; };
+		B2B3B54B2756B415006DBE40 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		B2FC5BEE27526CF7005EA6F5 /* app.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = app.gif; sourceTree = "<group>"; };
 		D260E8615707301D725CD848 /* Pods_Cities_States.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cities_States.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -118,6 +122,7 @@
 		B2A0F3E02751490000A6ED09 = {
 			isa = PBXGroup;
 			children = (
+				B2B3B54B2756B415006DBE40 /* Readme.md */,
 				B2A0F3EB2751490000A6ED09 /* Cities&States */,
 				B2A0F3EA2751490000A6ED09 /* Products */,
 				4C4C4B73A10CEDDA914A282D /* Pods */,
@@ -273,6 +278,7 @@
 		B2A0F40D27514A3D00A6ED09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B2FC5BEE27526CF7005EA6F5 /* app.gif */,
 				B2A0F4542751517000A6ED09 /* Lottie Files */,
 				B2A0F3FA2751490500A6ED09 /* Info.plist */,
 				B2A0F3F72751490500A6ED09 /* LaunchScreen.storyboard */,
@@ -387,6 +393,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B3B54C2756B415006DBE40 /* Readme.md in Resources */,
 				B2A0F44827514F3700A6ED09 /* StateTableCell.xib in Resources */,
 				B2A0F45827515C0D00A6ED09 /* empty.json in Resources */,
 				B2A0F3F92751490500A6ED09 /* LaunchScreen.storyboard in Resources */,
@@ -394,6 +401,7 @@
 				B2A0F41327514A9A00A6ED09 /* NeoSans-Bold.ttf in Resources */,
 				B2A0F4562751517D00A6ED09 /* load.json in Resources */,
 				B2A0F43A27514E9A00A6ED09 /* Main.storyboard in Resources */,
+				B2FC5BEF27526CF7005EA6F5 /* app.gif in Resources */,
 				B2A0F41D27514ABF00A6ED09 /* Colors.xcassets in Resources */,
 				B2A0F41527514AA300A6ED09 /* NeoSans-Regular.ttf in Resources */,
 				B2A0F41F27514AE100A6ED09 /* Assets.xcassets in Resources */,
@@ -614,20 +622,21 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TMMS5YCBY3;
+				DEVELOPMENT_TEAM = Z2D7GK7Q9Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cities&States/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Millensys.Cities-States";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mostafa.Cities-States";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -643,20 +652,21 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TMMS5YCBY3;
+				DEVELOPMENT_TEAM = Z2D7GK7Q9Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cities&States/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Millensys.Cities-States";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mostafa.Cities-States";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIStatusBarStyle</key>
-	<string>UIStatusBarStyleLightContent</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>NeoSans-Bold.ttf</string>
@@ -11,9 +9,9 @@
 		<string>NeoSans-Meduim.ttf</string>
 		<string>NeoSans-Regular.ttf</string>
 	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-    <key>UIUserInterfaceStyle</key>
-    <string>Light</string>
 </dict>
 </plist>
